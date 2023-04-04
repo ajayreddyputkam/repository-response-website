@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.list-tab-item {
+  list-style-type: none;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding: 7px;
+}
+
+.tab-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding-left: 7px;
+  padding-right: 7px;
+  min-width: 50px;
+  height: 30px;
+  font-weight: 600;
+}
+
+.active-tab {
+  color: #0284c7;
+  border: 2px solid #0284c7;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-button {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 60px;
+    height: 40px;
+  }
+
+  .list-tab-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+  .active-tab {
+    border-radius: 20px;
+  }
+}

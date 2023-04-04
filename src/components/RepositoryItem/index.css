@@ -1,0 +1,113 @@
+/* Write your CSS here */
+
+.repository-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  list-style-type: none;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+
+.avatar-image-repo {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .avatar-image-repo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .repository-list-item {
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.repository-name {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .repository-name {
+    font-size: 32;
+  }
+}
+
+.stars-container {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  margin-bottom: 0px;
+}
+
+.stars-image {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+
+.stars-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.forks-container {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.forks-image {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+
+.forks-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.issues-container {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  margin-top: 0px;
+}
+
+.issues-image {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+}
+
+.issues-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 5px;
+}
